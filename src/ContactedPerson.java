@@ -38,7 +38,7 @@ public class ContactedPerson {
     }
     //Method for printing out contacted person info
     public String toString (char contacted){
-        return "\n\t\t\t --CONTACTS--"
+        return "\n\t\t\t --CONTACT--"
                 + "\n\t\t\tName: " +  this.contactedName
                 + "\n\t\t\tPhone Number: " +this.contactedPhoneNumber
                 + "\n\t\t\tEmail: " + this.contactedEmailAddress;

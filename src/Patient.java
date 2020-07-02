@@ -95,7 +95,7 @@ public class Patient {
             +"\nPhone Number: " + this.patientPhoneNumber
             +"\nE-mail: " + this.patientEmailAddress
             +"\nCity: " + this.patientCity + "  State: " + this.patientState
-            +"\n\t\t\t --SYMPTOMS--"
+            +"\n\n\t\t\t --SYMPTOMS--"
             +"\n\t\t\t " + this.patientSymptoms
             +"\n\t\t\t Overall Number of Days with Symptoms: " + this.patientNumDaysWithSymptoms;
     }
