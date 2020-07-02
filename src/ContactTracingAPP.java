@@ -226,13 +226,13 @@ public class ContactTracingAPP {
         System.out.println("Enter the other contacted person's e-mail address:");
         String contactEmail2 = sc.nextLine();
 
-        contactedPerson2 = new ContactedPerson(contactName, contactPhone, contactEmail);
+        contactedPerson2 = new ContactedPerson(contactName2, contactPhone2, contactEmail2);
 
             System.out.println("\n --- COVID Tracing Report ---");
             for (Patient report : patients) {
                 System.out.println(patients.toString());
                 System.out.println(contactedPerson.toString('t'));
-                System.out.println("\n" + contactedPerson2.toString('t'));
+                System.out.println("\n" + contactedPerson2.toString(2));
             }
 
     }

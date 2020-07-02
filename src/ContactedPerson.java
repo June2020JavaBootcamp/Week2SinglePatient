@@ -43,5 +43,11 @@ public class ContactedPerson {
                 + "\n\t\t\tPhone Number: " +this.contactedPhoneNumber
                 + "\n\t\t\tEmail: " + this.contactedEmailAddress;
     }
+    public String toString (int contacted2){
+        return "\n\t\t\t --CONTACT--"
+                + "\n\t\t\tName: " +  this.contactedName
+                + "\n\t\t\tPhone Number: " +this.contactedPhoneNumber
+                + "\n\t\t\tEmail: " + this.contactedEmailAddress;
+    }
 }
 
