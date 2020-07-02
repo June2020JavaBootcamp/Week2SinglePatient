@@ -14,6 +14,7 @@ Output: report displaying patient information and contacted person information
 Process:
 
 BEGIN
+
   Prompt for patient information
   Get patient name, phone number, email address, address, and symptoms using different prompts
   
